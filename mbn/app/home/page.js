@@ -1,11 +1,15 @@
 import Grafico from "../../components/Grafico"
 import Resumen from "../../components/Resumen"
 import Gastos from "../../components/Gastos"
+import Navbar from "../../components/Navbar";
 
 
 export default function Home() {
   return (
     <div className="pt-20 min-h-screen bg-gradient-to-r from-black via-gray-900 to-black text-white p-6 overflow-hidden">
+      <nav>
+        <Navbar/>
+      </nav>
       <main className="grid grid-cols-12 gap-[8vw] w-20 h-[80vh]">
         <aside className="col-span-3 space-y-4 flex justify-between flex-col bg-gray-800 rounded-lg p-4">
           <div className="space-y-2">

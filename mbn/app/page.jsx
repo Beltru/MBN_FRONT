@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div>
-
-    </div>
+    <header>
+      Colo tu mama esta muerta
+    </header>
   );
 }
