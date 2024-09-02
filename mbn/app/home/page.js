@@ -17,7 +17,7 @@ export default function Home() {
             </div>
 
           <div>
-            <button className="block bottom text-left p-2 hover:bg-gray-600 rounded-lg mb-2 duration-500">Help</button>
+            <button className="block text-left p-2 hover:bg-gray-600 rounded-lg mb-2 duration-500">Help</button>
           </div>
         </aside>
 
