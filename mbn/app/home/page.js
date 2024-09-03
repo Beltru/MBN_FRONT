@@ -6,11 +6,11 @@ import Navbar from "../../components/Navbar";
 
 export default function Home() {
   return (
-    <div className="pt-20 min-h-screen bg-gradient-to-r from-black via-gray-900 to-black text-white p-6 overflow-hidden">
+    <div className="pt-24 p-8 min-h-screen bg-gradient-to-r from-black via-gray-900 to-black text-white overflow-hidden">
       <nav>
         <Navbar/>
       </nav>
-      <main className="grid grid-cols-12 gap-[8vw] w-20 h-[80vh]">
+      <main className="grid grid-cols-12 gap-[8vw] w-[95vw] h-[80vh]">
         <aside className="col-span-3 space-y-4 flex justify-between flex-col bg-gray-800 rounded-lg p-4">
           <div className="space-y-2">
             
@@ -25,11 +25,11 @@ export default function Home() {
           </div>
         </aside>
 
-        <section className="col-span-9 grid grid-cols-12 gap-8">
+        <section className="col-span-9 grid grid-cols-12 gap-x-[4vw] gap-y-[3vh]">
 
 
           {/* Caja de Dinero en Cuenta */}
-          <div className="col-span-3 ml-[-6rem] h-56 p-4 bg-gray-800 rounded-lg">          
+          <div className="col-span-4 ml-[-6rem] p-4 bg-gray-800 rounded-lg">          
             <p className="text-lg">Dinero en cuenta:</p>
             <p className="text-3xl font-bold">142,749 $</p><br></br>
             <p className="text-lg">Dinero transferido:</p>
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
 
           {/* Caja de Gastos */}
-          <div className="col-span-6 ml-[-1rem] h-56 p-4 border-spacing-1 color bg-gray-800 rounded-lg flex flex-col">
+          <div className="col-span-8 p-4 border-spacing-1 color bg-gray-800 rounded-lg flex flex-col">
             <Gastos/>
           </div>
    
@@ -53,7 +53,7 @@ export default function Home() {
           
           
           {/* Caja de Gráfico */}
-          <div className="col-span-4 ml-[-6rem] h-60 col-start-6 p-4 bg-gray-800 rounded-lg">
+          <div className="col-span-7 ml-[-7rem] col-start-6 p-4 bg-gray-800 rounded-lg">
             <div className="flex justify-between">
               <div>
                 <p className="text-xl font-bold -mt-2">$87,743</p>
