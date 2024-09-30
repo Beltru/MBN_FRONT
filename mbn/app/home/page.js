@@ -6,7 +6,7 @@ import Navbar from "../../components/Navbar";
 
 export default function Home() {
   return (
-    <div className="pt-24 p-8 min-h-screen bg-gradient-to-r from-black via-gray-900 to-black text-white overflow-hidden">
+    <div className="pt-24 p-8 min-h-screen bg-gradient-to-r from-[#0d0a39] via-[#130f53] to-[#0d0a39] text-white overflow-hidden">
       <nav>
         <Navbar/>
       </nav>
@@ -29,7 +29,7 @@ export default function Home() {
 
 
           {/* Caja de Dinero en Cuenta */}
-          <div className="col-span-4 ml-[-6rem] p-4 bg-gray-800 rounded-lg">          
+          <div className="col-span-4 ml-[-6rem] p-4 bg-gray-900 rounded-lg">          
             <p className="text-lg">Dinero en cuenta:</p>
             <p className="text-3xl font-bold">142,749 $</p><br></br>
             <p className="text-lg">Dinero transferido:</p>
@@ -37,13 +37,13 @@ export default function Home() {
           </div>
 
           {/* Caja de Gastos */}
-          <div className="col-span-8 p-4 border-spacing-1 color bg-gray-800 rounded-lg flex flex-col">
+          <div className="col-span-8 p-4 border-spacing-1 color bg-gray-900 rounded-lg flex flex-col">
             <Gastos/>
           </div>
    
 
           {/* Caja de Resumen */}
-          <div className="col-span-4 ml-[-6rem] p-4 bg-gray-800 rounded-lg">
+          <div className="col-span-4 ml-[-6rem] p-4 bg-gray-900 rounded-lg">
             <Resumen
               mes={"Agosto"}
               progress1={50}
@@ -53,23 +53,23 @@ export default function Home() {
           
           
           {/* Caja de Gráfico */}
-          <div className="col-span-7 ml-[-7rem] col-start-6 p-4 bg-gray-800 rounded-lg">
+          <div className="col-span-7 ml-[-8rem] col-start-6 p-6 bg-gray-900 rounded-lg">
             <div className="flex justify-between">
               <div>
-                <p className="text-xl font-bold -mt-2">$87,743</p>
+                <p className="text-xl font-bold mt-2">$87,743</p>
                 <p>Total assets</p>
               </div>
               <div>
-                <p className="text-xl font-bold -mt-2">$78,342</p>
+                <p className="text-xl font-bold mt-2">$78,342</p>
                 <p>Total deposits</p>
               </div>
               <div>
-                <p className="text-xl font-bold -mt-2">+12.3%</p>
+                <p className="text-xl font-bold mt-2">+12.3%</p>
                 <p>APY</p>
               </div>
             </div>
             <div className="mt-2 relative">
-              <div className="bg-gray-700 rounded mt-4">
+              <div className="bg-black rounded mt-4">
                 <Grafico/>
               </div>
             </div>

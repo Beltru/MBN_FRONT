@@ -65,7 +65,7 @@ const LineChart = () => {
 
   return (
    <div className="relative">
-      <div className="h-40 bg-gray-700 rounded p-2 -mt-4"> 
+      <div className="h-64 bg-gray-800 rounded p-2"> 
         <Line data={data} options={options} />
       </div>
     </div>
