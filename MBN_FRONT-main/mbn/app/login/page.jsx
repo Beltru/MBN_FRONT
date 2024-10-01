@@ -6,7 +6,9 @@ export default function Login() {
                 <Navbar/>
             </nav>
             <section className="h-[100vh] w-[100vw] flex justify-around items-center">
-                <div>Tu logo de mierda</div>
+                <div> <Image src={"/mbn.png"}
+              width={280}
+              height={280}/></div>
                 <div>El login todo culeado que diseño el forro de Campa</div>
             </section>
         </main>
